@@ -10,9 +10,10 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  TextEditingController nameController = TextEditingController(text: '');
-  TextEditingController nimController = TextEditingController();
-  TextEditingController kelasController = TextEditingController();
+  TextEditingController nameController = TextEditingController(text: 'Mardiayanto Moha');
+  TextEditingController nimController = TextEditingController('22501029');
+  TextEditingController kelasController = TextEditingController('B');
+  TextEditingController matakuliahController = TextEditingController('Mobile Dasar');
   String selectedMatakuliah = 'none';
   File? photo;
   final picker = ImagePicker();
