@@ -10,8 +10,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  TextEditingController nameController = TextEditingController(text: 'Mardiayanto Moha');
-  TextEditingController nimController = TextEditingController('22501029');
+  TextEditingController nameController = TextEditingController(text: 'Dahlan usman');
+  TextEditingController nimController = TextEditingController('22501009');
   TextEditingController kelasController = TextEditingController('B');
   TextEditingController matakuliahController = TextEditingController('Mobile Dasar');
   String selectedMatakuliah = 'none';
